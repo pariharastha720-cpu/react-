@@ -1,0 +1,64 @@
+body{
+        background-color: bisque;
+}
+
+.todo{
+        width:100%;
+        color:rgb(158, 44, 153);
+        border:whitesmoke;
+        box-shadow: 3px 3px 3px rgb(69, 65, 65);
+        border-radius: 20px;
+        padding: 20px;
+        margin:20px 20px 20px 20px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+h1{
+        font-size: 50px;
+}
+button{
+        height: 30px;
+        width:auto;
+        background-color: rgb(204, 103, 194);
+        color:rgb(78, 38, 141);
+        border-radius: 10px;
+        box-shadow: 5px rgb(69, 11, 23);
+        margin-top: 20px;
+        font-size: medium;
+        font-weight: bold;
+        cursor:pointer;
+        transition: background-color 0.5s ease;
+        
+
+}
+.add{
+        background-color: rgb(181, 67, 204);
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 3px;
+        border-radius: 2px;
+        
+        
+}
+input[type="text"]{
+        font-size: 1.4rem;
+        color:rgb(195, 32, 189);
+        border:2.5px solid rgb(140, 4, 140);
+        
+ol{
+        padding:0px;
+}
+li{
+        font-size: 25px;
+        font-weight: initial;
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 10px;
+        font-family:fantasy;
+        padding:4px;
+
+}        
