@@ -1,9 +1,9 @@
-import Digitalclock from './digitalclock.jsx';
+import Stopwatch from './stopwatch.jsx';
 
 function app(){
     return(
         <>
-        <Digitalclock/>
+        <Stopwatch/>
         </>
     )
 }
